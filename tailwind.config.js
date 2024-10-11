@@ -9,6 +9,9 @@ export default {
       colors: { 
         NavColor: '#FBFBFE'
       },
+        fontFamily: {
+        'sf-pro': ['"SF Pro Display"', 'sans-serif'],
+        },
     },
   },
   plugins: [],

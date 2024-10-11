@@ -11,14 +11,14 @@ import foto from '../assets/gunawan.jpg';
 
 const Navs = () => {
   return (
-    <nav className="w-[14%] md:w-[8%] lg:w-[16%] xl:w-[14%] h-screen  fixed left-0 top-0 overflow-y-auto">
-      <div className="flex items-center gap-3  rounded-xl p-2 drop-shadow-md mt-20 mb-8 mx-2">
+    <nav className="w-[14%] md:w-[8%] lg:w-[16%] xl:w-[14%] h-screen  fixed left-0 top-0 overflow-y-auto font-sf-pro font-bold">
+      <div className="flex items-center gap-3  rounded-xl p-2 bg-white drop-shadow-md mt-20 mb-8 mx-2">
         <img src={foto} alt="gunawan" className='rounded-full w-9 h-9' />
-        <p className="hidden lg:block">Username</p>
+        <p className="hidden lg:block font-sf-pro font-bold">Username</p>
         <img src={dropDown} alt="dropdownAccount" className='w-5 h-5 cursor-pointer pt-1 hidden lg:block'/>
       </div>
       <div className="space-y-8">
-        <NavItem to="/dashboard" icon={dashLogoSrc} text="Dashboard" />
+        <NavItem to="/dashboard" icon={dashLogoSrc} text="Dashboard"/>
         <NavItem to="/vehicle" icon={vehi} text="Vehicle" />
         <NavItem to="/user" icon={user} text="User" />
         <NavItem to="/peminjaman" icon={peminjaman} text="Peminjaman" />
