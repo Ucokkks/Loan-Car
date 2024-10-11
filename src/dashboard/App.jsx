@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Main() {
+const Main = () => {
   return (
     <div>
       <title>Admin Dashboard</title>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Peminjaman() {
+const Peminjaman = () => {
   return (
     <div>
       <title>Admin Dashboard</title>

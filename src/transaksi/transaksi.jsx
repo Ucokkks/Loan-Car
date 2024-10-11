@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Transaksi() {
+const Transaksi = () => {
   return (
     <div>
       <title>Admin Dashboard</title>

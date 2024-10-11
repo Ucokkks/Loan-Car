@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Vehicle() {
+const Vehicle = ()  => {
   return (
     <div>
       <title>Admin Dashboard</title>
@@ -8,6 +8,6 @@ function Vehicle() {
         
     </div>
   );
-}
+};
 
 export default Vehicle;
