@@ -7,6 +7,8 @@ import Vehicle from './vehicle/vehicle';
 import User from './user/user';
 import Peminjaman from './peminjaman/peminjaman';
 import Transaksi from './transaksi/transaksi';
+import Detail from './vehicle/detail'
+import Edit from './vehicle/edit'
 import Layout from './layout';
 
 const AppRoutes = () => {
@@ -22,6 +24,8 @@ const AppRoutes = () => {
           <Route path="/peminjaman" element={<Peminjaman />} />
           <Route path="/transaksi" element={<Transaksi />} />
           <Route path="/permintaan" element={<Permintaan />} />
+          <Route path='/vehicle/detail' element={<Detail/>}/>
+          <Route path='/vehicle/edit' element={<Edit/>}/>
         </Routes>
       </Layout>
     </div>
