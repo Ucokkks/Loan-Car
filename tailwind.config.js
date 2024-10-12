@@ -7,7 +7,13 @@ export default {
   theme: {
     extend: {
       colors: { 
-        NavColor: '#FBFBFE'
+        NavColor: '#FBFBFE',
+        ButtonColor:'#1B3554',
+        ButtonHover:'#011E40',
+        BlueAvailable:'#003D84',
+        ButtonDetail:'#00395A',
+        InUse:'#00FF0A',
+        InMaintenance:'#FF3B3B'
       },
     },
   },
