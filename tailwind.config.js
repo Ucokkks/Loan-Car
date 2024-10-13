@@ -13,7 +13,9 @@ export default {
         BlueAvailable:'#003D84',
         ButtonDetail:'#00395A',
         InUse:'#00FF0A',
-        InMaintenance:'#FF3B3B'
+        InMaintenance:'#FF3B3B',
+        NavHover: '#1B3554',
+        LogOut: '#C3C3C3',
       },
         fontFamily: {
         'sf-pro': ['"SF Pro Display"', 'sans-serif'],
