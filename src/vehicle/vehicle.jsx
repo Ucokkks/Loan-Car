@@ -15,7 +15,7 @@ const Vehicle = ()  => {
         <img className="float-right right-0 top-0 hover:bg-slate-200 hover:rounded-full" src={notif} alt="" /> 
       </a>
           <br />
-      <Header>Detail Mobil</Header>
+      <Header>Ketersediaan Mobil</Header>
         <div>
           <div className='lg:inline-flex relative'>
             <Searchbar/>

@@ -16,6 +16,7 @@ export default {
         InMaintenance:'#FF3B3B',
         NavHover: '#1B3554',
         LogOut: '#C3C3C3',
+        wrappingDd: '#FAFAFA'
       },
         fontFamily: {
         'sf-pro': ['"SF Pro Display"', 'sans-serif'],
