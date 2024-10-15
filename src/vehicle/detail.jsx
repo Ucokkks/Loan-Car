@@ -14,7 +14,7 @@ const Detail = () => {
         <div>
         <Inner>
             <a href="/vehicle">
-                <img className="float-right right-0 top-0 hover:bg-slate-200 hover:rounded-full" src={x} alt="" /> 
+                <img className="float-right right-0 top-0 hover:bg-LightGray hover:rounded-full" src={x} alt="" /> 
             </a>
             
             <br />
