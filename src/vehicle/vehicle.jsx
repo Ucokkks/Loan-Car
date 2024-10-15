@@ -12,7 +12,7 @@ const Vehicle = ()  => {
       <title>Vehicle</title>
       <Inner>
       <a href="">
-        <img className="float-right right-0 top-0 hover:bg-slate-200 hover:rounded-full" src={notif} alt="" /> 
+        <img className="float-right right-0 top-0 hover:bg-LightGray hover:rounded-full" src={notif} alt="" /> 
       </a>
           <br />
       <Header>Ketersediaan Mobil</Header>
