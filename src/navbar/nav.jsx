@@ -52,9 +52,9 @@ const Navs = () => {
         <NavItem to="/dashboard" icon={dashLogoSrc} text="Dashboard" isActive={location.pathname === '/dashboard'} />
         <NavItem to="/vehicle" icon={vehi} text="Vehicle" isActive={location.pathname === '/vehicle'} />
         <NavItem to="/user" icon={user} text="User" isActive={location.pathname === '/user'} />
-        <NavItem to="/peminjaman" icon={peminjaman} text="Peminjaman" isActive={location.pathname === '/peminjaman'} />
-        <NavItem to="/transaksi" icon={tsx} text="Transaksi" isActive={location.pathname === '/transaksi'} />
-        <NavItem to="/permintaan" icon={permintaan} text="Permintaan" isActive={location.pathname === '/permintaan'} />
+        <NavItem to="/peminjaman" icon={peminjaman} text="Loan" isActive={location.pathname === '/peminjaman'} />
+        <NavItem to="/transaksi" icon={tsx} text="Transactions" isActive={location.pathname === '/transaksi'} />
+        <NavItem to="/permintaan" icon={permintaan} text="Request" isActive={location.pathname === '/permintaan'} />
       </div>
     </nav>
   );

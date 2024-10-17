@@ -4,14 +4,13 @@ import Searchbar from '../components/searchbar/searchbar';
 import Table from '../components/UserTable/table';
 import ChartUser from '../components/chart/chartUser';
 import PopulerUserUser from '../components/top/userTop';
+import Header from '../components/header/header';
 
 function User() {
   return (
     <div className='font-sf-pro'>
       <Inner>
-        <div className="">
-          <p className='text-xl ml-6'>Pencarian Pengguna</p>
-        </div>
+        <Header>User</Header>
         <div className="">
           <Searchbar />
         </div>

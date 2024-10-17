@@ -19,6 +19,12 @@ const Main = () => {
             <p className='font-semibold text-center text-sm mb-2'>Message Status</p>
             <ChartTop />
           </div>
+
+          <div className="bg-gray-100 p-5 rounded-xl mb-4 w-[40%] ml-12 h-[205px] shadow-lg">
+              <p className="font-semibold text-md mb-1">Jarak Terjauh</p>
+              <h1 className="font-bold text-4xl mb-1">20 KM</h1>
+              <p className="font-medium text-sm text-gray-400">15/3/2024</p>
+            </div>
         </div>
         <div className="flex mb-4 flex-col md:flex-row  md:w-2/3">
           <div className="bg-gray-100 p-4 rounded-2xl shadow-md flex-grow mr-4 h-[70%]">
@@ -35,11 +41,7 @@ const Main = () => {
         </div>
         <div className="flex flex-col md:flex-row  mt-16">
           <div className="md:w-1/3 mr-2"> 
-            <div className="bg-gray-100 p-5 rounded-lg mb-4 w-[50%]">
-              <p className="font-semibold text-md mb-1">Jarak Terjauh</p>
-              <h1 className="font-bold text-4xl mb-1">20 KM</h1>
-              <p className="font-medium text-sm text-gray-400">15/3/2024</p>
-            </div>
+
             <div className="bg-gray-100 p-4 rounded-lg w-[75%]">
               <LastChart />
             </div>
