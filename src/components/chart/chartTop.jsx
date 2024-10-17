@@ -25,7 +25,7 @@ const ChartTop = () => {
   const series = [44, 55];
 
   return (
-    <ReactApexChart options={chartOptions} series={series} type="pie" width={380} />
+    <ReactApexChart options={chartOptions} series={series} type="pie" width={280} height={150} />
   );
 };
 
