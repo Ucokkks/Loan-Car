@@ -21,13 +21,13 @@ const PayTables = () => {
   }
   if(option == 'op2'){
     value = [1,2,3,4,5];
-  }
+  };
 
     return(
         <>
         <div className="mt-10 font-sf-pro text-lg">
-            <button onClick={op1} className={`mr-8 ${option == 'op1' ? 'underline font-bold underline-offset-8' : 'no-underline'}`}>Overview</button>
-            <button onClick={op2} className={option == 'op2' ? 'underline font-bold underline-offset-8' : 'no-underline'}>History</button>
+            <button onClick={op1} className={`mr-8 hover:font-bold ${option == 'op1' ? 'underline font-bold underline-offset-8' : 'no-underline'}`}>Overview</button>
+            <button onClick={op2} className={`hover:font-bold ${option == 'op2' ? 'underline font-bold underline-offset-8' : 'no-underline'}`}>History</button>
         </div>
 
         <table className='w-full  border-separate border-spacing-y-4 max-w-[97%]'>
@@ -65,7 +65,7 @@ const PayTables = () => {
               <td className="p-2 border rounded-md">1 Week</td>
               <td className="p-2 border rounded-md">Rp 1.000.00</td>
             </tr>
-          ))}
+          ))};
         </tbody>
         </table>
         </>
