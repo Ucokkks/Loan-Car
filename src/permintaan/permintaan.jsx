@@ -1,10 +1,18 @@
 import React from 'react';
+import Inner from '../components/inner/inner.jsx';
+import Notif from '../components/notification/notif.jsx';
 
 const Permintaan = () => {
   return (
-    <div>
-      <h1 className="text-2xl font-bold mb-4">Permintaan</h1>
-      <p>Content for the Permintaan page goes here.</p>
+    <div className='font-sf-pro'>
+      <Inner>
+        <div className="mt-16 text-3xl mb-5">
+          <h1 className='font-semibold'>Loan Request</h1>
+        </div>
+        <div className="">
+           <Notif/>
+        </div>
+      </Inner>
     </div>
   );
 };

@@ -3,7 +3,7 @@ import Inner from '../components/inner/inner';
 import Searchbar from '../components/searchbar/searchbar';
 import Table from '../components/UserTable/table';
 import ChartUser from '../components/chart/chartUser';
-import PopulerUserUser from '../components/top/userTop';
+import Pops from '../components/top/populerv2';
 import Header from '../components/header/header';
 
 function User() {
@@ -23,7 +23,7 @@ function User() {
               <ChartUser />
             </div>
             <div className="">
-              <PopulerUserUser />
+              <Pops />
             </div>
           </div>
         </div>
